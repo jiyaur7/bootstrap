@@ -1,55 +1,43 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
-    padding: 4%;
-}
-p{
-    font-size: 30px;
-}
-#note{
-    color: white;
-    background-color: #e01a1a;
-}
-#border{
-    border: 2px solid blue;
-border-radius: 5px;
-padding: 5px 50px;
-max-width: 500px;
-
-}
-#padding{
-    padding: 10px 15px;
-    background-color: cadetblue;
-    border-radius: 5px;
-}
-.text{
-    text-align: right;
-    color: chartreuse;
-
-
-}
-.img-text{
-   
-    height: 500px;
-}
-img{
-    width:25%;
-     border: 2px solid red;
-    float: left;
-    margin: 5px 15px;
-    margin-left: 70px;
-    border-radius: 140px;
-}
-img:hover{
-    background-color: #6B0083;
-
-}
-input:focus{
-    color: crimson;
-    border: 5px solid blue;
-    font-size: 15px;
-    font-weight: bold;
-}
 .container{
-    
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.orenge-bg{
+    background-color: #FEEAE9;
+    padding: 50px 82px 85px 90px;
+    border-radius: 10px;
+    height: 450px;
+}
+.price{
+    width: 115px;
+    height: 40px;
+    color: #FF136F;
+    left: 336px;
+    top: 560px;
+}
+.buy-now{
+   background-image: linear-gradient(to bottom,#FF535B 0%, #FF136F 100%
+   );
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.cat1, .cat2, .cat3{
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+}
+.cat1{
+    background-color: #FFB428;
+}
+.cat2{
+    background-color: #FF4790;
+}
+.cat3{
+    background-color: #4168FD;
+}
+.container img{
+    width: 100px;
 }
