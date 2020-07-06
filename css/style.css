@@ -9,7 +9,8 @@ body{
     background-color: #FEEAE9;
     padding: 50px 82px 85px 90px;
     border-radius: 10px;
-    height: 450px;
+    height: auto;
+   
 }
 .price{
     width: 115px;
@@ -31,6 +32,7 @@ body{
     padding: 20px 15px;
     border-radius: 15px;
     color: white;
+    margin: 10px 0px;
 }
 .cat1{
     background-color: #FFB428;
@@ -74,3 +76,8 @@ footer{
 .bg-l{
     color: turquoise;
 }
+.carousel-img{
+    margin-top: 10px;
+    width: 90%;
+}
+
