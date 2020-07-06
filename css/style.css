@@ -38,6 +38,29 @@
 .cat3{
     background-color: #4168FD;
 }
-.container img{
+.categories{
     width: 100px;
+   
+}
+.margin-top{
+    margin-top: 100px;
+}
+.card{
+    box-shadow: 20px 15px 30px;
+}
+.contact{
+    height: 300px;
+}
+.input{
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-weight: 800px;
+    color: #FF136F;
+    font-size: 20px;
+    
+}
+footer{
+    text-align: center;
 }
